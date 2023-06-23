@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form input[type="search"] {
+    margin: 20px auto;
+    display: flex;
+    width: 250px;
+    height: 40px;
+    padding: 1rem;
+    font-size: 17px;
+}
+
+.cards {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    padding: 20px 10px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.cards img {
+    width: 150px;
+    height: 150px;
+}
+
+figcaption {
+    width: 150px;
+    text-align: center;
+}
+
+.fillCard {
+    visibility: hidden;
+    opacity: 0;
+    order: 1;
+}
